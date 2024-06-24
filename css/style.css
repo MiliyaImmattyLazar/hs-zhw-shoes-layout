@@ -287,6 +287,10 @@ section a {
 #details a:hover, #details a:active {
   text-decoration: underline;
 }
+.first{
+  column-count: 2;
+  padding-bottom: 50px;
+}
 
 /********** Footer **********/
 
@@ -301,5 +305,11 @@ footer a {
   color: #555;
   text-decoration: underline;
 }
-
+.second{
+  column-count: 3;
+}
+.third{
+  column-count: 3;
+  
+}
 /* code examples copyright Jonathan Grover 2012 */
